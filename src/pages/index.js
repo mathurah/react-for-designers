@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/card'
+import staticdata from '../../staticdata.json'
 
 const IndexPage = () => (
 <div>
@@ -48,6 +49,8 @@ const IndexPage = () => (
       image={require ('../images/wallpaper3.jpg')}/>
       </div>
   </div>
+  {staticdata.cells.map(cell => (
+    <div>{cell.title} </div>))}
 </div>
 )
 

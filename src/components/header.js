@@ -16,15 +16,15 @@ class Header extends React.Component {
     window.addEventListener('scroll', this.handleScroll)
   }
 
-  // handleScroll = {event} => {
-  //   const scrollTop = window.pageYOffset 
-  //   if (scrollTop > 50) {
-  //     this.setState({hasScrolled: true})
-  //   }
-  //   else {
-  //     this.setState({hasScrolled: false})
-  //   }
-  // }
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset 
+    if (scrollTop > 50) {
+      this.setState({hasScrolled: true})
+    }
+    else {
+      this.setState({hasScrolled: false})
+    }
+  }
   render() {
     return (
     <div className={this.state.hasScrolled ? 'Header HeaderScrolled':'Header '}>
