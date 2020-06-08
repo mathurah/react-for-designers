@@ -1,7 +1,7 @@
 # React for Designers
-Project I developed when taking the **React for Designers** courses from (Designcode.io)[https://designcode.io/react].
+Project I developed when taking the **React for Designers** courses from [Designcode.io](https://designcode.io/react).
 
-View the project(here)[http://react-design.netlify.com].
+View the project live [here](http://react-design.netlify.com).
 
 ## Some things I used and learned!
 - Gatsby
